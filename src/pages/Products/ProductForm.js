@@ -113,13 +113,24 @@ const ProductForm = (props) => {
             <Grid container spacing={12} component="form" onSubmit={handleSubmit}
                 sx={{ mt: 3, justifyContent: 'center' }}
             >
-                <Grid item container xs={12} md={6} spacing={12}>
+                <Grid item container xs={10} md={6} spacing={12}>
                     <Grid item xs={12}>
                         <TextField
                             name="sku"
                             required
                             fullWidth
                             label="Sku"
+                            value={product.sku}
+                            onChange={handleChange}
+                            autoFocus
+                        />
+                    </Grid>
+                    <Grid item xs={12}>
+                        <TextField
+                            name="name"
+                            required
+                            fullWidth
+                            label="Nombre"
                             value={product.sku}
                             onChange={handleChange}
                             autoFocus

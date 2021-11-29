@@ -3,7 +3,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
+import ListAltIcon from '@mui/icons-material/ListAlt';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import CallMadeIcon from '@mui/icons-material/CallMade';
 import GradingIcon from '@mui/icons-material/Grading';
@@ -18,33 +18,33 @@ export const menuItems = (
       </ListItemIcon>
       <ListItemText primary="Inicio" />
     </ListItem>
-    <ListItem to="/lista-productos" component={Link}>
+    <ListItem to="/productos" component={Link}>
       <ListItemIcon>
-        <PeopleAltOutlinedIcon />
+        <ListAltIcon />
       </ListItemIcon>
       <ListItemText primary="Lista de Productos" />
     </ListItem>
-    <ListItem to="/agregar-producto" component={Link}>
+    <ListItem to="/agregar" component={Link}>
       <ListItemIcon>
         <AddCircleOutlineIcon />
       </ListItemIcon>
       <ListItemText primary="Agregar Producto" />
     </ListItem>
-    <ListItem to="/hacer-pedido" component={Link}>
+    <ListItem to="/hacer-orden" component={Link}>
       <ListItemIcon>
         <CallMadeIcon />
       </ListItemIcon>
-      <ListItemText primary="Hacer Pedido" />
+      <ListItemText primary="Hacer orden" />
     </ListItem>
     <ListItem to="/ver-ordenes" component={Link}>
       <ListItemIcon>
-        <ArrowBackIcon />
+        <GradingIcon/>
       </ListItemIcon>
       <ListItemText primary="Ver ordenes" />
     </ListItem>
     <ListItem to="/salir" component={Link}>
       <ListItemIcon>
-        <GradingIcon />
+        <ArrowBackIcon />
       </ListItemIcon>
       <ListItemText primary="Salir" />
     </ListItem>

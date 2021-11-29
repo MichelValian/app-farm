@@ -8,13 +8,12 @@ import { getStorage } from "@firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBbJ5NDHRY11cnlK266xmrd-gHtHbIzPVE",
-  authDomain: "app-bd-97068.firebaseapp.com",
-  databaseURL: "https://app-bd-97068-default-rtdb.firebaseio.com",
-  projectId: "app-bd-97068",
-  storageBucket: "app-bd-97068.appspot.com",
-  messagingSenderId: "170156997464",
-  appId: "1:170156997464:web:20c433f8b5dc979f74832d"
+  apiKey: "AIzaSyCBj_K-3IQ24Bb71VwXiGM5tw2hEJHWhbY",
+  authDomain: "app-farmacia-65a5e.firebaseapp.com",
+  projectId: "app-farmacia-65a5e",
+  storageBucket: "app-farmacia-65a5e.appspot.com",
+  messagingSenderId: "289542984629",
+  appId: "1:289542984629:web:91818bffa197bf0f2c3ffc"
 };
 
 // Initialize Firebase

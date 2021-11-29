@@ -14,7 +14,7 @@ import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-import NotificationsIcon from '@mui/icons-material/Notifications';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { menuItems } from './menu';
 
 function Copyright(props) {
@@ -113,11 +113,11 @@ const DashboardContent = (props) => {
               noWrap
               sx={{ flexGrow: 1 }}
             >
-              App name
+              Pharmacy SC Orders
             </Typography>
             <IconButton color="inherit">
-              <Badge badgeContent={4} color="secondary">
-                <NotificationsIcon />
+              <Badge color="secondary">
+                <AccountCircleIcon />
               </Badge>
             </IconButton>
           </Toolbar>
@@ -160,5 +160,4 @@ const DashboardContent = (props) => {
     </ThemeProvider>
   );
 }
-
 export default DashboardContent;
